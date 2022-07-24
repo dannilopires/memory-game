@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll('.card');
 
 function flipCard(){
-    this.classList.toggle('flip');
+    this.classList.add('flip');
 }
 
 cards.forEach((card) => {
