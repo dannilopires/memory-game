@@ -33,6 +33,11 @@ function disableCards(){
 
 function unflipCards(){
 
+    setTimeout(()=> {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+    }, 1500)
+
 }
 
 cards.forEach((card) => {
