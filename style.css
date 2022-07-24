@@ -43,7 +43,7 @@ body {
     position: absolute;
     border-radius: 5px;
     background: white;
-    backface-visibility: hidden;
+    backface-visibility: hidden; /* propriedade que retira o verso do elemento */
 }
 
 .card-front {
